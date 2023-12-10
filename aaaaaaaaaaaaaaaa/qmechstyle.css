@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppons', sans-serif;
+}
+body{
+    background: url(peakpx.jpg);
+    background-size: 667px 375px;
+    height: 667px;
+    width: 375px;
+}
+.container{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(peakpx.jpg);
+    border-radius: 5px;
+    color: #e3e3e3;
+    background-size: cover;
+    
+}
+.logo{
+    
+    width: 40%;
+    height: 40%;
+}
+.header{
+    color: white;
+    font-family: Verdana;
+    font-style: bold;
+   
+}
+.logoBackground{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: white; 
+    max-width: max-content;
+}
+.wifiSignalBatteryLogo{
+    width: 25%;
+    height: 5%;
+    margin-top: 3px;
+    margin-left: 260px;
+}
+.infoContainer{
+    background: url(infowallpaper.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    transition-duration: .4s;
+}   
+.infoContainer:hover{
+    background-color: black;
+    opacity: .80;
+}
+.logintextM{
+    color: white;
+    margin-right: 60px;
+}
+.logintext{
+    color: white;
+    margin-right: 100px;
+}
+.logintext1{
+    color: white;
+    margin-right: 95px;
+}
+.button{
+    background-color: #6082B6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: .4s;
+}
+.button:hover{
+    color:black;
+    background-color: gray;
+}
+
+.userButton{
+    color: white;
+    background-color: #6082B6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: .4s;
+    width: 70%;
+    border: none;
+}
+.userButton:hover{
+    color: black;
+    background-color: gray;
+    opacity: .82;
+}
+.mechanicButton{
+    color: white;
+    background-color: #6082B6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: .4s;
+    width: 70%;
+    border: none;
+}
+.mechanicButton:hover{
+    color: black;
+    background-color: gray;
+    opacity: .82;
+}
+.headerContainer{
+    width: 80%;
+    border-radius: 5px;
+    background: url(infowallpaper.jpg);
+    padding: 10px;
+    transition-duration: .4s;
+    background-size: cover;
+}
+.headerContainer:hover{
+    background-color: black;
+    opacity: .80;
+}
+.headerInterface1{
+    color: white;
+    font-family: Verdana;
+    font-style: bold;
+}
+
+
+.buttonContainer{
+    text-align:center;
+}
+.manualSearchButton{
+    color: white;
+    background-color: #6082B6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: .4s;
+    width: 70%;
+    border: none;
+}
+.manualSearchButton:hover{
+    color: black;
+    background-color: gray;
+    opacity: .82;
+}
+.autoSearchButton{
+    color: white;
+    background-color: #6082B6;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: .4s;
+    width: 70%;
+    border: none;
+}
+.autoSearchButton:hover{
+    color: black;
+    background-color: gray;
+    opacity: .82;
+}
+
+.containerMaps{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(maps.jpg);
+    border-radius: 5px;
+    color: #e3e3e3;
+    background-size: cover;
+}
+
+.containerGearIcon{
+    text-align: center;
+}
+.gearIcon{
+    width: 60%;
+    height: 60%;
+}
+
+.buttonPay{
+    width: 100%;
+    background-color: #6082B6;
+    color: white;
+}
